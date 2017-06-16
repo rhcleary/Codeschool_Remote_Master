@@ -3,25 +3,8 @@ NOTES:
 This directory is the main working directory for the Code School Git training.
 This file is edited here to mark changes for pushing to remote.
 
-Incorrect_PROFBASE_20170313 - AERMOD was run with 
+20170616 Test- Created a local branch "Edit_Readme.training_for_June_testing". Test to see
+if it is displayed in remote.  Removed file contents related to template README (AERMOD for Dunay)
 
-Incorrect_PRV400_20170314 - PRV400 was discovered to have a data entry error, with 
-incorrect value of 0.0012 g/s emissions rate.  Value changed to 0.012 g/s in third run.
-
-Final_Run_20170410 - Updated volume sources based on Chris Dunay provided DWG 04/07.
-***************************************************************************************
-
-
-Ohio EPA (OEPA) "Engineering Guide #69" directs meteorological files to be used
-for Lucas County, OH are:
-
-Surface: 	Toledo, OH	(WBAN #94830)
-UpperAir:	Detroit (KDTX)	(WBAN #04830)
-
-However, OEPA .SFC file headers indicate WBAN #14826 was used, corresponding to Flint, MI. 
-
-For AERMOD run:
--Utilized OEPA .SFC and .PFL files per guidance
--In AERMOD View, changed the UA_ID value to 14826 (Flint), despite using 
-Station Name ID as "Detroit KDTX". 
+ 
 
